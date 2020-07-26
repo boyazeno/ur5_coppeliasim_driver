@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/boya/ros_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/boya/ros_ws/src/franka_ros/franka_control/include/**",
+                "/home/boya/ros_ws/src/mvp_grasp/franka_control_wrappers/include/**",
+                "/home/boya/ros_ws/src/franka_ros/franka_example_controllers/include/**",
+                "/home/boya/ros_ws/src/franka_ros/franka_gripper/include/**",
+                "/home/boya/ros_ws/src/franka_ros/franka_hw/include/**",
+                "/home/boya/ros_ws/src/simExtROSInterface/include/**",
+                "/home/boya/ros_ws/src/ur5_test/include/**",
+                "/home/boya/ros_ws/src/universal_robot/ur_kinematics/include/**",
+                "/home/boya/ros_ws/src/ur5_coppeliasim_driver/include/**",
+                "/usr/include/**",
+                "/home/boya/CoppeliaSim_Edu_V4_0_0_Ubuntu18_04/programming/b0RemoteApiBindings/cpp/msgpack-c/include/**",
+                "/home/boya/CoppeliaSim_Edu_V4_0_0_Ubuntu18_04/programming/bluezero/include/b0/bindings/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
