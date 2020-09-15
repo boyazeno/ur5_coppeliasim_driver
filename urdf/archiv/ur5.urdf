@@ -266,7 +266,7 @@
     </inertial>
   </link>
   <joint name="rg2_eef_joint" type="fixed">
-    <origin rpy="0 1.5707963268 0" xyz="0.195 0.0 0.0"/>
+    <origin rpy="0 0 0" xyz="0.195 0.0 0.0"/>
     <parent link="rg2_body_link"/>
     <child link="ee_link"/>
   </joint>
@@ -368,6 +368,6 @@
   <joint name="world_joint" type="fixed">
     <parent link="world"/>
     <child link="base_link"/>
-    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.1"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
   </joint>
 </robot>
